@@ -1,8 +1,156 @@
 {
   "Actor": {
-    "types": ["character", "npc"]
+    "types": ["character", "npc"],
+    "templates": {
+      "base": {
+        "armor": {
+          "value": 0,
+          "min": 0
+        },
+        "vitality": {
+          "value": 0,
+          "min": 0
+        },
+        "ki_reserve": {
+          "value": 0,
+          "min": 0
+        },
+        "speed": "30ft",
+        "special_senses": "None",
+        "mind": {
+          "value": 1,
+          "min": 1,
+          "max": 5
+        },
+        "body": {
+          "value": 1,
+          "min": 1,
+          "max": 5
+        },
+        "spirit": {
+          "value": 1,
+          "min": 1,
+          "max": 5
+        },
+        "awareness": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "artistry": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "athletics": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "disguise": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "endurance": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "engineering": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "focus": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "insight": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "knowledge": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "maneuvering": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "manipulation": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "marksmanship": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "medicine": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "melee": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "performance": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "resistance": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "stealth": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        },
+        "strength": {
+          "value": 0,
+          "min": 0,
+          "max": 3
+        }
+      },
+      "character": {
+        "templates": ["base"],
+        "rank": "Genin",
+        "rp": {
+          "value": 1,
+          "min": 1
+        },
+        "wealth": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "disposable_income": {
+          "value": 0,
+          "min": 0
+        }
+      },
+      "npc": {
+        "templates": ["base"],
+        "threat_ranking": {
+          "value": 1,
+          "min": 1,
+          "max": 4
+        }
+      }
+    }
   },
   "Item": {
-    "types": ["item", "feature", "spell"]
+    "types": ["item", "feature", "spell", "weapon"]
   }
 }

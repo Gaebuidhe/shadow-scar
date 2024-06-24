@@ -8,7 +8,7 @@
       "discord": "cmdrdiarmuiduaduibhne"
     }
   ],
-  "url": "Replace this with a link to your public repository",
+  "url": "https://github.com/Gaebuidhe/shadow-scar",
   "license": "LICENSE.txt",
   "readme": "README.md",
   "bugs": "Replace this with a link to file issues or tickets",
@@ -16,8 +16,8 @@
   "media": [
     {
       "type": "setup",
-      "url": "systems/shadow-scar/assets/anvil-impact.png",
-      "thumbnail": "systems/shadow-scar/assets/anvil-impact.png"
+      "url": "systems/shadow-scar/assets/shadow-scar-icon.png",
+      "thumbnail": "systems/shadow-scar/assets/shadow-scar-icon.png"
     }
   ],
   "version": "2.0.0",
@@ -37,7 +37,7 @@
   "packs": [],
   "packFolders": [],
   "socket": false,
-  "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
+  "manifest": "https://github.com/Gaebuidhe/shadow-scar/blob/main/system.json",
   "download": "This must link to a .zip file of the current version",
   "background": "systems/shadow-scar/assets/anvil-impact.png",
   "gridDistance": 5,
